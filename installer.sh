@@ -51,7 +51,7 @@ echo ""
 
 cd /tmp 
 wget --no-check-certificate https://raw.githubusercontent.com/emil237/KeyAdder/main/KeyAdder-main.tar.gz
-tar -xf main.tar.gz
+tar -xzf KeyAdder-main.tar.gz  -C /
 cd ..
 
 sync
