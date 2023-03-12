@@ -1,11 +1,7 @@
 #!/bin/sh
 ##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/KeyAdder/main/installer.sh -O - | /bin/sh
-
-######### Only These two lines to edit with new version ######
-version=5.8
-description=What is NEW:\n[[Move plugin to my source github]\nما هو الجديد:\n[github نقل البلجن الى سورساتي على]
-##############################################################
-
+#########
+version=7.0
 # Python version
 PYTHON_VERSION=$(python -c"import platform; print(platform.python_version())")
 
@@ -51,7 +47,7 @@ echo ""
 
 cd /tmp 
 wget --no-check-certificate https://raw.githubusercontent.com/emil237/KeyAdder/main/KeyAdder-main.tar.gz
-tar -xzf KeyAdder-main.tar.gz  -C /
+tar -xzf KeyAdder-main.tar.gz -C /
 cd ..
 
 sync
